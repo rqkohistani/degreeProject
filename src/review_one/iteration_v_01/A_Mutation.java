@@ -8,8 +8,7 @@ public class A_Mutation {
         int i=0;
         while (i<20){
             int fuz=random.nextInt(11);
-
-            //            boolean expected=correctBiggerThan10(fuz);//5
+            //boolean expected=correctBiggerThan10(fuz);//5
 //            boolean mutant=mutant1tBiggerThan10(fuz);
 //            boolean mutant12=mutant2tBiggerThan10(fuz);
             boolean expected=correctBiggerThan10(i);//5

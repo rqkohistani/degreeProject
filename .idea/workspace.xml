@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="804949d9-28cb-4bf8-834a-6e135b1bb467" name="Default Changelist" comment="" />
+    <list default="true" id="804949d9-28cb-4bf8-834a-6e135b1bb467" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/degreeProject/Main.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,31 +13,61 @@
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1pbO4ViddNiNTGzQhpRCz5qSDbW" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/review_one" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\rashi\Desktop\degreeProject\src\review_one" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Mutation">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="MAIN_CLASS_NAME" value="review_one.Main" />
       <module name="degreeProject" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Mutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="review_one.iteration_v_01.Mutation" />
+      <module name="degreeProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="review_one.iteration_v_01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Mutation" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -51,5 +84,27 @@
       <updated>1615448131733</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1865" height="292" key="GridCell.Tab.0.bottom" timestamp="1615449507382">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1848" height="192" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1615448441285" />
+    <state width="1865" height="292" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1615449507382" />
+    <state width="1865" height="292" key="GridCell.Tab.0.center" timestamp="1615449507381">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1848" height="192" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1615448441285" />
+    <state width="1865" height="292" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1615449507381" />
+    <state width="1865" height="292" key="GridCell.Tab.0.left" timestamp="1615449507381">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1848" height="192" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1615448441284" />
+    <state width="1865" height="292" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1615449507381" />
+    <state width="1865" height="292" key="GridCell.Tab.0.right" timestamp="1615449507381">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1848" height="192" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1615448441285" />
+    <state width="1865" height="292" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1615449507381" />
   </component>
 </project>

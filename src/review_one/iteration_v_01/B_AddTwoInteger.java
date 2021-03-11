@@ -1,10 +1,10 @@
-package review_one.iteration_v_02;
+package review_one.iteration_v_01;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-public class AddTwoInteger {
+public class B_AddTwoInteger {
     static Random random = new Random();
     static int a = random.nextInt(100);
     static int b = random.nextInt(100);

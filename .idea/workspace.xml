@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="804949d9-28cb-4bf8-834a-6e135b1bb467" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/degreeProject/review_one/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/degreeProject/review_one/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/degreeProject/review_one/iteration_v_01/B_AddTwoInteger.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/degreeProject/review_one/iteration_v_01/B_AddTwoInteger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/review_one/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/review_one/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/review_one/iteration_v_01/B_AddTwoInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/review_one/iteration_v_01/B_AddTwoInteger.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
+        <option value="Python Script" />
         <option value="Class" />
       </list>
     </option>
@@ -39,24 +46,17 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="prototype_model_v_1.runner" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="reflection" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\rashi\Desktop\degreeProject\src\review_one" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.C_BiggerThan_10">
-    <configuration name="A_Mutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="review_one.iteration_v_01.A_Mutation" />
-      <module name="degreeProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="review_one.iteration_v_01.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Output">
     <configuration name="B_AddTwoInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="review_one.iteration_v_01.B_AddTwoInteger" />
       <module name="degreeProject" />
@@ -70,12 +70,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C_BiggerThan_10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="review_one.iteration_v_01.C_BiggerThan_10" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testSelectionProblemSolver.Main" />
       <module name="degreeProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="review_one.iteration_v_01.*" />
+          <option name="PATTERN" value="testSelectionProblemSolver.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,16 +86,49 @@
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="review_one.Main" />
       <module name="degreeProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="review_one.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Output" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="prototype_model_v_1.testProblemSolver.Output" />
+      <module name="degreeProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="prototype_model_v_1.testProblemSolver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="method2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="reflection.method2" />
+      <module name="degreeProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="reflection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.C_BiggerThan_10" />
+        <item itemvalue="Application.Output" />
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.B_AddTwoInteger" />
-        <item itemvalue="Application.A_Mutation" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.method2" />
       </list>
     </recent_temporary>
   </component>
@@ -113,29 +146,49 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1042" y="330" key="#com.intellij.ide.util.MemberChooser" timestamp="1615624765598">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1042" y="330" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1615624765598" />
     <state x="2632" y="383" width="495" height="286" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1615452817749">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2632" y="383" width="495" height="286" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1615452817749" />
-    <state width="1865" height="275" key="GridCell.Tab.0.bottom" timestamp="1615453592517">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="689" y="199" key="FileChooserDialogImpl" timestamp="1615549311479">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="689" y="199" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1615549311479" />
+    <state width="2505" height="351" key="GridCell.Tab.0.bottom" timestamp="1615625905166">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1848" height="192" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1615448441285" />
-    <state width="1865" height="275" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1615453592517" />
-    <state width="1865" height="275" key="GridCell.Tab.0.center" timestamp="1615453592516">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1865" height="320" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1615564532254" />
+    <state width="1865" height="265" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1615546361891" />
+    <state width="2505" height="351" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1615625905166" />
+    <state width="2505" height="351" key="GridCell.Tab.0.center" timestamp="1615625905166">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1848" height="192" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1615448441285" />
-    <state width="1865" height="275" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1615453592516" />
-    <state width="1865" height="275" key="GridCell.Tab.0.left" timestamp="1615453592516">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1865" height="320" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1615564532254" />
+    <state width="1865" height="265" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1615546361891" />
+    <state width="2505" height="351" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1615625905166" />
+    <state width="2505" height="351" key="GridCell.Tab.0.left" timestamp="1615625905166">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1848" height="192" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1615448441284" />
-    <state width="1865" height="275" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1615453592516" />
-    <state width="1865" height="275" key="GridCell.Tab.0.right" timestamp="1615453592516">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1865" height="320" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1615564532254" />
+    <state width="1865" height="265" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1615546361891" />
+    <state width="2505" height="351" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1615625905166" />
+    <state width="2505" height="351" key="GridCell.Tab.0.right" timestamp="1615625905166">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1848" height="192" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1615448441285" />
-    <state width="1865" height="275" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1615453592516" />
+    <state width="1865" height="320" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1615564532254" />
+    <state width="1865" height="265" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1615546361891" />
+    <state width="2505" height="351" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1615625905166" />
+    <state x="230" y="41" key="new project wizard" timestamp="1615549312817">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="230" y="41" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1615549312817" />
   </component>
 </project>

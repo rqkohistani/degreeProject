@@ -6,8 +6,10 @@ import java.util.Random;
 
 public class B_AddTwoInteger {
     static Random random = new Random();
-    static int a = random.nextInt(100);
-    static int b = random.nextInt(100);
+//    static int a = random.nextInt(100);
+//    static int b = random.nextInt(100);
+static int a = 4;
+    static int b = 2;
 
     public static void main(String[] args) {
         System.err.println("public int add(int a, int b{" +

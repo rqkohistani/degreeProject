@@ -20,7 +20,6 @@ public class Runner {
         addAllMutants();
         getPairs();
     }
-
     private List<Integer> mutants = new ArrayList<>();
     private  List<List<Integer>> testCases = new ArrayList<>();
     private List<Integer> pairs = new ArrayList<>();
@@ -44,9 +43,11 @@ public class Runner {
     }
 
     private void getPairs(){
-        int start=0;
+        int start=1;
+        int modelSolutionPositionInmutantsArray=0;
+        int numberOfEquivalenMutantsFound=0;
         while (start<mutants.size()){
-            if(modelSolution !=mutants) {
+            if(mutants.get(modelSolutionPositionInmutantsArray) !=mutants.get(start)) {
                 pairs.add(myInput.getA());
                 pairs.add(myInput.getB());
                 testCases.add(pairs);
@@ -55,10 +56,14 @@ public class Runner {
             }
             else {
                 //do nothing
-                System.out.println("else statement");
+                numberOfEquivalenMutantsFound++;
+//                System.out.println("else statement");
             }
             start++;
+
         }
+//        System.out.println("Number of equivalent mutants "+numberOfEquivalenMutantsFound);
     }
+
 
 }

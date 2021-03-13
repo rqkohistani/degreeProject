@@ -23,7 +23,7 @@
 src/renameThisPackage
 src/reflection
 out/production/degreeProject
-
+.gitignore
 
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml

@@ -22,7 +22,8 @@
 .idea
 src/renameThisPackage
 src/reflection
-out/production
+out/production/degreeProject
+
 
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml

@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="804949d9-28cb-4bf8-834a-6e135b1bb467" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/prototype_model_v_1/TestCases/TestCases.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prototype_model_v_1/TestCases/TestCases.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/prototype_model_v_1/model_Diagrams_Output/Output1.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/src/prototype_model_v_1/model_Diagrams_Output/Output1.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/prototype_model_v_1/runner/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prototype_model_v_1/runner/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/prototype_model_v_1/testProblemSolver/TestProblemSolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prototype_model_v_1/testProblemSolver/TestProblemSolver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prototype_model_v_1/model_solution/ModelSolution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prototype_model_v_1/model_solution/ModelSolution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prototype_model_v_1/mutators/Mutations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prototype_model_v_1/mutators/Mutations.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

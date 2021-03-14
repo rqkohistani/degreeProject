@@ -4,13 +4,13 @@
 
   ![Prototype model](https://github.com/rqkohistani/degreeProject/blob/main/src/prototype_model_v_1/model_Diagrams_Output/Prototypemodel.JPG)
   ![Prototype model](https://github.com/rqkohistani/degreeProject/blob/main/src/prototype_model_v_1/model_Diagrams_Output/Output1.JPG)
-##### Model-solution or the correct version of the program
-     ```
+#### Model-solution or the correct version of the program
+```
       public int add(int a, int b) {
         return a + b;
     }
-      ```
-      ##### The buggy versions of the program
+```
+#### The buggy versions of the program
   ```
   public int mutantEquivalent(int a, int b) {
         return a + b;
@@ -44,4 +44,4 @@
     public int mutan5(int a, int b) {
         return b;
     }
-     ```
+

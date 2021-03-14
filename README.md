@@ -6,4 +6,10 @@
   ![Prototype model](https://github.com/rqkohistani/degreeProject/blob/main/src/prototype_model_v_1/model_Diagrams_Output/Output1.JPG)
     ![Prototype model](https://github.com/rqkohistani/degreeProject/blob/main/src/prototype_model_v_1/model_Diagrams_Output/Model-Solution.JPG)
   ![Prototype model](https://github.com/rqkohistani/degreeProject/blob/main/src/prototype_model_v_1/model_Diagrams_Output/GeneratedMutants.JPG)
+  
+  ```
+  public int mutanEquivalent(int a, int b) {
+        return a + b;
+    }
+  ```
 

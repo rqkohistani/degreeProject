@@ -13,7 +13,7 @@ public class TestProblemSolver {
 
 
     public void testCasesMinimized(){
-        System.out.println("Minimized test cases 'not yet implemented'");
+        System.err.println("Minimized test cases 'not yet implemented'");
 
     }
 }

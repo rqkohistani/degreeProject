@@ -10,7 +10,10 @@ public class TestCases {
     }
 
     public void testCasesNotMinimized(){
+        System.out.println( "\r\nmutations forms");
+        System.out.println("a-b, a*b, a/b, a, b, a+b \r\n");
         System.out.println("All possible test cases'not minimized' ");
+
         System.out.println(runner.getTestCases());
     }
 

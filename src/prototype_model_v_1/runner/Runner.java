@@ -5,7 +5,9 @@ import prototype_model_v_1.mutators.Mutations;
 import prototype_model_v_1.myInput.MyInput;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 public class Runner {
     Mutations mutations;
@@ -23,10 +25,15 @@ public class Runner {
 
     private List<Integer> mutants = new ArrayList<>();
     private List<List<Integer>> testCases = new ArrayList<>();
+    private Set<List<Integer>> listSet=new HashSet<>();
     private List<Integer> pairs = new ArrayList<>();
 
     public List<List<Integer>> getTestCases() {
         return testCases;
+    }
+
+    public Set<List<Integer>> getListSet() {
+        return listSet;
     }
 
     private void addAllMutants() {
@@ -44,7 +51,7 @@ public class Runner {
         int start = 1;
         int modelSolutionPositionInmutantsArray = 0;
         int numberOfEquivalenMutantsFound = 0;
-        for (int i = 0; i < 20; i++) {
+        for (int i = 0; i < 1000; i++) {
 
 
             while (start < mutants.size()) {
@@ -52,6 +59,7 @@ public class Runner {
                     pairs.add(myInput.getA());
                     pairs.add(myInput.getB());
                     testCases.add(pairs);
+                    listSet.add(pairs);
                     pairs = new ArrayList<>();
                     resetValues();
 

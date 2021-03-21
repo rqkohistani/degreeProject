@@ -15,6 +15,9 @@ public class TestCases {
         System.out.println("All possible test cases'not minimized' ");
 
         System.out.println(runner.getTestCases());
+        System.out.println("\n \n");
+        System.err.println("Minimized");
+        System.out.println(runner.getListSet());
     }
 
 

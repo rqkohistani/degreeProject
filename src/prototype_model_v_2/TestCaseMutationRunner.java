@@ -22,10 +22,10 @@ public class TestCaseMutationRunner {
 
             Random random = new Random(System.currentTimeMillis());
 
-            TestCaseWriter unminimized = new TestCaseWriter(new File(System.getProperty("user.dir") + File.separator + "unminimized.log"));
-//            prototype_model_v_2.TestCaseWriter unminimized = new prototype_model_v_2.TestCaseWriter(new File(System.getProperty("user.dir") + File.separator +"\\src\\prototype_model_v_2\\unminimized.log"));
-            TestCaseWriter minimized = new TestCaseWriter(new File(System.getProperty("user.dir") + File.separator + "minimized.log"));
-//            prototype_model_v_2.TestCaseWriter minimized = new prototype_model_v_2.TestCaseWriter(new File(System.getProperty("user.dir") + File.separator + "minimized.log"));
+//            TestCaseWriter unminimized = new TestCaseWriter(new File(System.getProperty("user.dir") + File.separator + "unminimized.log"));
+            prototype_model_v_2.TestCaseWriter unminimized = new prototype_model_v_2.TestCaseWriter(new File(System.getProperty("user.dir") + File.separator +"\\src\\prototype_model_v_2\\unminimized.txt"));
+//            TestCaseWriter minimized = new TestCaseWriter(new File(System.getProperty("user.dir") + File.separator + "minimized.log"));
+            prototype_model_v_2.TestCaseWriter minimized = new prototype_model_v_2.TestCaseWriter(new File(System.getProperty("user.dir")+ File.separator +"\\src\\prototype_model_v_2\\minimized.txt"));
             unminimized.addData("MODEL SOLUTION,MUTATION,INPUT 1,INPUT 2,EXPECTED RESULT,ACTUAL RESULT\n");
             minimized.addData("MODEL SOLUTION,MUTATION,INPUT 1,INPUT 2,EXPECTED RESULT,ACTUAL RESULT,PASS\n");
 
@@ -75,6 +75,7 @@ public class TestCaseMutationRunner {
 
     public static void main(String[] args) {
         new TestCaseMutationRunner();
+        System.out.println("The results is outputted in txt files");
     }
 }
 

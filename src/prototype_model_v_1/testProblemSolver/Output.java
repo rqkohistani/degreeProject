@@ -5,8 +5,7 @@ public class Output {
         TestProblemSolver testProblemSolver=new TestProblemSolver();
 
         testProblemSolver.testCasesMinimized();
-        boolean a=false;
-        boolean b=false;
+
 
     }
 }

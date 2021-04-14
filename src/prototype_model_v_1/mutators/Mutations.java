@@ -6,6 +6,13 @@ public class Mutations {
         return a + b;
     }
 
+    public boolean mutanString1(String str1, String str2){
+        str1="abc";
+        str2="abc";
+
+        return false;
+    }
+
     public int mutan1(int a, int b) {
         return a - b;
     }

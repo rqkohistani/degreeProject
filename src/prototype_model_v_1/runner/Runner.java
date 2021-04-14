@@ -51,14 +51,19 @@ public class Runner {
         int start = 1;
         int modelSolutionPositionInmutantsArray = 0;
         int numberOfEquivalenMutantsFound = 0;
-        for (int i = 0; i < 1000; i++) {
+        for (int i = 0; i < 10; i++) {
 
 
             while (start < mutants.size()) {
+//                a =5;
+//                b = 3;
+//                ms=8    m1 = 2
                 if (mutants.get(modelSolutionPositionInmutantsArray) != mutants.get(start)) {
-                    pairs.add(myInput.getA());
+                    pairs.add(myInput.getA()); //
                     pairs.add(myInput.getB());
+//                    pairs[5,3]
                     testCases.add(pairs);
+//                    [[5,3]]
                     listSet.add(pairs);
                     pairs = new ArrayList<>();
                     resetValues();

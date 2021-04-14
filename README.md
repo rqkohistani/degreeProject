@@ -1,5 +1,5 @@
 # OutDated Repository
-# [HEC BACHELOR DEGREE PROJECT REPOSITORY](https://github.com/rqkohistani/HECBachelorDegreeProject) 
+# [_NEW REPOSITORY_ BACHELOR DEGREE PROJECT ](https://github.com/rqkohistani/HECBachelorDegreeProject)
 ## Bachelor Degree Project VT 2021
 # Generating Test Suite from Model Solutions
 ### A very basic prototype model that shows how the prototype can generate test cases
